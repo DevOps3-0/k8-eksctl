@@ -1,5 +1,5 @@
 workflow for EKS cluster creation
-    1) Run terraform plan and apply to create EC2 Instance (from workstation.sh)
+    1) Run terraform init, terraform plan and terraform apply to create EC2 Instance (from workstation.sh)
         System specification source is workstation.sh (containes all the nessasary files)
     
     2) Login to workstation with centos / DevOps321
